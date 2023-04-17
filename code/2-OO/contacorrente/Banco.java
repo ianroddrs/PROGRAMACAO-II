@@ -7,5 +7,8 @@ public class Banco {
         conta1.creditar(1537.97);
 
         conta1.debitar(523.29);
+
+        conta1.imprimir();
+        
     }
 }

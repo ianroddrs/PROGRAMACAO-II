@@ -19,6 +19,9 @@ public class ContaCorrente {
         }
     }
 
-    
+    void imprimir(){
+        System.out.println("Conta: " + numConta);
+        System.out.println("Saldo: " + saldoConta);
+    }
 
 }
