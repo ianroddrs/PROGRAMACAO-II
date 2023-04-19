@@ -1,4 +1,3 @@
-
 class Fibonacci{
     public static void main(String[] args) {
         
@@ -12,7 +11,6 @@ class Fibonacci{
             z=x+y;
             System.out.println(z);
             x=y; y=z;
-
         }
     }  
 }
