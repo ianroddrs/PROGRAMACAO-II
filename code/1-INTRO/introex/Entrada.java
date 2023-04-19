@@ -11,5 +11,6 @@ public class Entrada {
         String frase = ler.nextLine();
         ler.close();
 
+        System.out.println(i+preco+palavra+frase);
     }
 }
