@@ -1,8 +1,8 @@
-package contacorrente;
+package code.OO.contacorrente;
 
 public class ContaCorrente {
-    String numConta;
-    double saldoConta;
+    private String numConta;
+    private double saldoConta;
 
     ContaCorrente(String numero, double saldo){
         numConta = numero;
@@ -17,6 +17,22 @@ public class ContaCorrente {
         if(saldoConta >= debito){
             saldoConta -= debito;
         }
+    }
+
+    double getSaldo(){
+        return saldoConta;
+    }
+
+    String getNumConta() {
+        return numConta;
+    }
+
+    public void setNumConta(String numConta) {
+        this.numConta = numConta;
+    }
+
+    public void setSaldoConta(double saldoConta) {
+        this.saldoConta = saldoConta;
     }
 
     void imprimir(){

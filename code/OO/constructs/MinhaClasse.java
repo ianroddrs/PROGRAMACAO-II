@@ -1,5 +1,3 @@
-package constructs;
-
 public class MinhaClasse {
     int x;
 

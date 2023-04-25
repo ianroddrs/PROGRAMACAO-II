@@ -1,4 +1,4 @@
-package contacorrente;
+package code.OO.contacorrente;
 
 public class Banco {
     public static void main(String[] args) {
